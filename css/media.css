@@ -8,6 +8,142 @@ header {
 	width: 80%;
 	height: 10%;
 }
+.slider {
+    width: 833px;
+    height: 190px;
+    justify-content: center;
+    display: flex;
+    margin-left: 49px;
+}
+.descPromo h2,h3,span {
+	padding-left: 30px;
+}
+.descPromo p {
+	padding-left: 30px;
+}
+.promo .descPromo {
+    position: absolute;
+    top: 9px;
+    left: 35px;
+    width: 500px;
+    overflow: hidden;
+}
+nav {
+    width: 784px;
+    height: 27px;
+    background-color: #95161f;
+    padding-top: 5px;
+    margin-left: 98px;
+}
+.breadcrumbs {
+    width: 744px;
+    padding: 4px 20px 6px;
+    font-size: 11px;
+    display: flex;
+    margin-left: 98px;
+}
+
+.left form {
+    display: none;
+}
+.leftDesc {
+	   display: none;
+}
+aside.right {
+    width: 708px;
+	display: inline-block;
+    float: none;
+	margin-left: 120px;
+    margin-bottom: 10px;
+}
+table {
+    width: 90%;
+    padding: 0;
+    font-size: 12px;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 5px;
+    background-color: #282d33;
+    color: #9da4af;
+    margin-left: 19px;
+}
+
+/*Футер для тестов*/
+
+
+
+
+footer {
+	display: inline-block;
+	bottom: 0;
+	width: 100%;
+	background: #272d34 url("img/bg-footer.png") repeat;
+	border-top: 10px solid #9c4757;
+	height: 200px;
+	text-align: center;
+}
+ .content {
+	display: inline-block;
+	width: 960px;
+	text-align: left;
+    padding-left: 0px;	
+	 
+}
+section {
+	display: inline-table;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+section h2 {
+	font-size: 14px;
+	font-weight: normal;
+	display: inline-block;
+	margin-bottom: 1px;
+}
+ .borderBottom {
+	width: 100px;
+	height: 1px;
+	background-color: #191c20;
+	border-bottom: 1px solid #40474f;
+	margin-top: 0px;
+}
+.content p {
+	font-size: 12px;
+	display: inline-block;
+	margin-bottom: 0px;
+}
+.content li {
+    padding-left: 0px;
+    margin-top: 0px;
+    font-size: 12px;
+    line-height: 10px;
+    width: 100px;
+}
+ul h3 {
+	padding-left: 0px;
+	margin-top: 0px;
+	font-size: 12px;
+}
+
+
+
+
+/*можно удалять*/
+
+
+
+
+ 
+@media all and (max-width: 768px){
+	body {
+		color: aqua;
+	}
+.topLine {
+	width: 30%;
+	height: 10%;	
+}
+
 .logo h1 {
 	font-size: 18px;
     margin-top: 12px;
@@ -26,26 +162,15 @@ header {
     width: 150px;
     height: 12px;
 }
+.search input[type="image" i] {
+    cursor: pointer;
+    width: 25px;
+    height: 23px;
+}
 .logo p {
     font-size: 13px;
     margin-top: -15px;
     margin-left: 93px;
     line-height: 15px;
     color: #656f7a;
-}
-
-.search input[type="image" i] {
-    cursor: pointer;
-    width: 25px;
-    height: 23px;
-}
-
- 
-@media all and (max-width: 768px){
-	body {
-		color: aqua;
-	}
-.topLine {
-	width: 30%;
-	height: 10%;	
 }
