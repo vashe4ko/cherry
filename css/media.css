@@ -1,0 +1,51 @@
+body {
+	color: red;
+}
+header {
+	float: none;
+}
+.topLine {
+	width: 80%;
+	height: 10%;
+}
+.logo h1 {
+	font-size: 18px;
+    margin-top: 12px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	line-height: 12px;
+}
+.search {
+    float: right;
+    display: inline-flex;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.search input[type="text" i] {
+    width: 150px;
+    height: 12px;
+}
+.logo p {
+    font-size: 13px;
+    margin-top: -15px;
+    margin-left: 93px;
+    line-height: 15px;
+    color: #656f7a;
+}
+
+.search input[type="image" i] {
+    cursor: pointer;
+    width: 25px;
+    height: 23px;
+}
+
+ 
+@media all and (max-width: 768px){
+	body {
+		color: aqua;
+	}
+.topLine {
+	width: 30%;
+	height: 10%;	
+}
